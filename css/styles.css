@@ -1,0 +1,11 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 2074px;
+  color: #2e2f42;
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.section {
+  cursor: pointer;
+}
