@@ -1,11 +1,47 @@
 body {
-  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
   width: 1440px;
   height: 2074px;
-  color: #2e2f42;
   background: #ffffff;
-  font-family: "Roboto", sans-serif;
 }
-.section {
-  cursor: pointer;
+/* header */
+.header {
+  width: 1440px;
+  height: 72px;
+}
+.header-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header-list-studio {
+  width: 48px;
+}
+.header-list-portfolio {
+  width: 66px;
+}
+.header-list-contacts {
+  width: 67px;
+}
+.header-logo-web {
+  font-family: "Raleway";
+  color: #4d5ae5;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  width: 44px;
+  height: 24px;
+}
+.header-logo-studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  width: 71px;
+  height: 24px;
+  color: #2e2f42;
 }
