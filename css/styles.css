@@ -9,12 +9,38 @@ body {
 .header {
   width: 1440px;
   height: 72px;
+  display: flex;
+  background: #ffffff;
+  color: #2e2f42;
 }
 .header-nav {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
+}
+.header-logo-web {
+  font-family: "Raleway";
+  color: #4d5ae5;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  width: 44px;
+  height: 24px;
+}
+.header-logo-studio {
+  font-family: "Raleway";
+  color: #2e2f42;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  width: 71px;
+  height: 24px;
+}
+.header-list {
+  display: flex;
 }
 .header-list-studio {
   width: 48px;
@@ -25,23 +51,60 @@ body {
 .header-list-contacts {
   width: 67px;
 }
-.header-logo-web {
-  font-family: "Raleway";
-  color: #4d5ae5;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
-  width: 44px;
-  height: 24px;
+.heder-list-address {
+  display: flex;
 }
-.header-logo-studio {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
-  width: 71px;
-  height: 24px;
+
+.header-address {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* Main Content */
+.main {
+  background: #ffffff;
   color: #2e2f42;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+.main-list {
+  display: flex;
+}
+.botton {
+  cursor: pointer;
+}
+.section-image-list {
+  background: #ffffff;
+}
+.section-image-title {
+  font-size: 20px;
+}
+.section-image-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+/* Footer */
+.footer {
+  background: #2e2f42;
+  color: #e7e9fc;
+  width: 1440px;
+  height: 310px;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+}
+.footer-web {
+  color: #4d5ae5;
+}
+.footer-studio {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  left: 156px;
+  top: 1902px;
+  right: 1020px;
+  width: 264px;
+  height: 72px;
 }
