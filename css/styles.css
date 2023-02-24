@@ -1,42 +1,35 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  width: 1440px;
-  height: 2074px;
   background: #ffffff;
+  font-weight: 500;
 }
-/* header */
+/* Header */
 .header {
-  width: 1440px;
-  height: 72px;
   display: flex;
-  background: #ffffff;
 }
 .header-nav {
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
 }
+
+.header-list :hover,
+.header-list :focus {
+  color: red;
+}
 .header-logo-web {
   font-family: "Raleway";
-  color: #4d5ae5;
-  font-style: normal;
   font-weight: 800;
+  color: #4d5ae5;
   font-size: 18px;
   line-height: calc(24 / 18);
-  width: 44px;
-  height: 24px;
 }
+
 .header-logo-studio {
   font-family: "Raleway";
-  color: #2e2f42;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: calc(24 / 18);
-  width: 71px;
-  height: 24px;
 }
 .header-list {
   display: flex;
@@ -55,30 +48,32 @@ body {
 }
 
 .header-address {
+  font-style: normal;
   font-size: 16px;
+}
+.header-address :hover,
+.header-address :focus {
+  color: red;
 }
 .heder-list-contacts {
   color: #434455;
-  font-style: normal;
 }
 /* Main Content */
 .main {
-  background: #ffffff;
-  color: #2e2f42;
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
 }
 .main-list {
   display: flex;
 }
+.main-list :hover,
+.main-list :focus {
+  color: red;
+}
 .botton {
   cursor: pointer;
 }
 .section-image-list {
-  background: #ffffff;
-  flex-direction: row;
 }
 .section-image-title {
   font-size: 20px;
@@ -86,28 +81,26 @@ body {
 .section-image-text {
   font-size: 16px;
   line-height: calc(24 / 16);
+  color: #434455;
 }
 /* Footer */
 .footer {
   background: #2e2f42;
   color: #e7e9fc;
-  width: 1440px;
-  height: 310px;
   font-size: 18px;
   line-height: calc(21 / 18);
 }
 .footer-web {
+  font-family: "Raleway";
+  font-weight: 800;
   color: #4d5ae5;
 }
 .footer-studio {
+  font-family: "Raleway";
+  font-weight: 800;
   color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
   line-height: calc(24 / 16);
-  left: 156px;
-  top: 1902px;
-  right: 1020px;
-  width: 264px;
-  height: 72px;
 }
