@@ -1,8 +1,38 @@
+/* Studio */
+.section-main-studio {
+  color: var(--primary-background-color);
+  background: var(--background-footer);
+  text-align: center;
+}
+.studio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--primary-text-color);
+}
+.studio-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--heder-list-contacts);
+}
+.section-studio-list {
+  display: flex;
+}
+.studio-image-list {
+  display: flex;
+}
+.studio-image-title {
+  text-align: center;
+}
+.footer-studi {
+  background: var(--background-footer);
+}
+/* Portfolio */
 :root {
   --primary-text-color: #2e2f42;
   --primary-background-color: #ffffff;
-  --hover: red;
-  --focus: red;
+  --hover: #404bbf;
+  --focus: #404bbf;
   --logo-web: #4d5ae5;
   --heder-list-contacts: #434455;
   --background-footer: #2e2f42;
@@ -18,6 +48,7 @@ body {
 }
 /* Header */
 .header {
+  text-decoration: none;
   display: flex;
 }
 .header-nav {
@@ -31,6 +62,12 @@ body {
 .header-list :focus {
   color: var(--focus);
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 .header-logo-web {
   font-family: "Raleway";
   font-weight: 800;
@@ -38,23 +75,20 @@ body {
   line-height: calc(24 / 18);
   color: var(--logo-web);
 }
-
 .header-logo-studio {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: calc(24 / 18);
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .header-list {
   font-weight: 500;
   color: var(--primary-text-color);
   display: flex;
+  text-decoration: none;
 }
-.heder-list-address {
-  display: flex;
-}
-
 .header-address {
   font-style: normal;
   font-size: 16px;
@@ -65,13 +99,20 @@ body {
 .header-address :focus {
   color: var(--focus);
 }
+.heder-list-address {
+  display: flex;
+}
 .heder-list-contacts {
   color: var(--heder-list-contacts);
+  text-decoration: none;
 }
 /* Main Content */
 .main {
   font-size: 20px;
   line-height: calc(24 / 20);
+}
+.section-main {
+  color: var(--logo-web);
 }
 .main-list {
   font-weight: 500;
@@ -83,10 +124,24 @@ body {
 .main-list :focus {
   color: var(--focus);
 }
+.botton-text {
+  color: var(--primary-background-color);
+}
+.main-botton-text {
+  color: var(--logo-web);
+}
 .botton {
+  background: var(--footer-studio);
   cursor: pointer;
+  border-radius: 4px;
+}
+.botton-all {
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--focus);
 }
 .section-image-list {
+  display: flex;
 }
 .section-image-title {
   font-weight: 500;
@@ -95,7 +150,7 @@ body {
 .section-image-text {
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: var(--section-image-text);
+  color: var(--heder-list-contacts);
 }
 /* Footer */
 .footer {
