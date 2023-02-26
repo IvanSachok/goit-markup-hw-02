@@ -3,26 +3,11 @@
   color: var(--primary-background-color);
   background: var(--background-footer);
 }
-.studio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: calc(24 / 20);
-  color: var(--primary-text-color);
-}
-.studio-text {
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  color: var(--heder-list-contacts);
-}
-.section-studio-list {
-}
-.studio-image-list {
-}
-.studio-image-title {
-}
-/* Footer-studio */
-.footer-studi {
-  background: var(--background-footer);
+.main-studio-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  color: var(--primary-background-color);
 }
 /* Portfolio */
 :root {
@@ -42,6 +27,13 @@ body {
   color: var(--primary-text-color);
   background: var(--primary-background-color);
 }
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 /* Header */
 .page-header {
   text-decoration: none;
@@ -56,12 +48,6 @@ body {
 }
 .header-list :focus {
   color: var(--focus);
-}
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
 }
 .header-logo-web {
   font-family: "Raleway";
@@ -106,15 +92,15 @@ ul {
 .header-address :focus {
   color: var(--focus);
 }
-.heder-list-address {
+.list-address {
   display: flex;
 }
-.heder-list-contacts {
+.list-contacts {
   color: var(--heder-list-contacts);
   text-decoration: none;
 }
 /* Main Content */
-.main {
+.content-main {
   font-size: 20px;
   line-height: calc(24 / 20);
 }
@@ -134,6 +120,9 @@ ul {
   background: var(--focus);
 }
 .botton {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
   text-align: center;
   background: var(--footer-studio);
   cursor: pointer;
@@ -142,19 +131,20 @@ ul {
   background: var(--footer-studio);
 }
 
-.section-image-list {
+.image-list {
 }
-.section-image-title {
+.image-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: calc(24 / 20);
 }
-.section-image-text {
+.image-text {
   font-size: 16px;
   line-height: calc(24 / 16);
   color: var(--heder-list-contacts);
 }
 /* Footer */
-.footer {
+.page-footer {
   font-size: 18px;
   line-height: calc(21 / 18);
   color: var(--footer-color);
