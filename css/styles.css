@@ -9,6 +9,7 @@
   line-height: calc(60 / 56);
   color: var(--primary-background-color);
 }
+
 .botton-main-studio:hover {
   color: var(--primary-background-color);
   background: var(--hover);
@@ -27,6 +28,13 @@
   color: var(--primary-background-color);
   background: var(--logo-web);
 }
+/* Information */
+.studio-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--heder-list-contacts);
+}
+
 /* Portfolio */
 :root {
   --primary-text-color: #2e2f42;
@@ -59,6 +67,7 @@ ul {
 .page-header-link {
   font-family: "Raleway";
   font-weight: 800;
+  text-transform: uppercase;
   font-size: 18px;
   color: var(--primary-text-color);
   line-height: calc(24 / 18);
@@ -77,12 +86,6 @@ ul {
 }
 .header-list :focus {
   color: var(--focus);
-}
-.page-header-link {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: calc(24 / 18);
 }
 .header-list-link {
   font-weight: 500;
@@ -152,8 +155,6 @@ ul {
 }
 /* Footer */
 .page-footer {
-  font-size: 18px;
-  line-height: calc(21 / 18);
   color: var(--footer-color);
   background: var(--background-footer);
 }
@@ -163,6 +164,7 @@ ul {
 .page-footer-link {
   font-family: "Raleway";
   font-weight: 800;
+  text-transform: uppercase;
   font-size: 18px;
   color: var(--footer-studio);
   line-height: calc(21 / 18);
