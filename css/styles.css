@@ -38,8 +38,7 @@ ul {
 .header-logo-web {
   color: var(--logo-web);
 }
-.header-nav {
-}
+
 .header-list {
   text-decoration: none;
   display: flex;
@@ -70,8 +69,8 @@ ul {
   display: flex;
 }
 .list-contacts {
-  color: var(--heder-list-contacts)
   text-decoration: none;
+  color: var(--heder-list-contacts);
 }
 /* Main Content */
 .content-main {
