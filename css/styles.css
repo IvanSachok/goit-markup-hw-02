@@ -70,7 +70,7 @@ ul {
   display: flex;
 }
 .list-contacts {
-  color: var(--heder-list-contacts);
+  color: var(--heder-list-contacts)
   text-decoration: none;
 }
 /* Main Content */
