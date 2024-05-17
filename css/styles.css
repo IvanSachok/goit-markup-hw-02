@@ -1,0 +1,221 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #434455;
+}
+
+/* Загальні стилі */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+/* ШАПКА СТОРІНКИ */
+.header {
+}
+.header-navigation {
+}
+.header-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-list-link:hover {
+  color: #404bbf;
+}
+.header-list-link:focus {
+  color: #404bbf;
+}
+.header-address {
+}
+.list-address {
+}
+.list-address-item {
+}
+.list-address-link {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.list-address-link:hover {
+  color: #404bbf;
+}
+.list-address-link:focus {
+  color: #404bbf;
+}
+/* <!-- Головний контент сторінки --> */
+.main-content {
+}
+.main-section {
+  background-color: #2e2f42;
+}
+.main-content-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  line-height: 1.071;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.main-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+}
+.main-button:hover {
+  color: #fff;
+  background: #404bbf;
+}
+.main-button:focus {
+  background: #404bbf;
+  color: #fff;
+}
+/* <!-- Інформація --> */
+.section-info {
+}
+.info-list {
+}
+.info-list-item {
+}
+.info-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.info-text {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* <!-- Наша Команда --> */
+.section-team {
+}
+.section-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-image-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-image-text {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* <!-- Наше Портфоліо --> */
+.section-portfolio {
+}
+.section-portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-image-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-image-text {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* <!-- Нижня частина сторінки --> */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
