@@ -88,7 +88,7 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -145,9 +145,9 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -179,8 +179,10 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
+  background-color: #ffffff;
 }
 .portfolio-list-item {
 }
