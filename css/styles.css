@@ -26,17 +26,19 @@ button {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 .header-list {
 }
@@ -57,6 +59,7 @@ button {
   color: #404bbf;
 }
 .header-address {
+  font-style: normal;
 }
 .list-address {
 }
@@ -87,6 +90,7 @@ button {
   line-height: 60px;
   line-height: 1.071;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .main-button {
@@ -131,6 +135,7 @@ button {
 
 /* <!-- Наша Команда --> */
 .section-team {
+  background-color: #f4f4fd;
 }
 .section-team-title {
   font-weight: 700;
@@ -139,8 +144,10 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -151,6 +158,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .team-image-text {
   font-size: 16px;
@@ -170,6 +178,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .portfolio-list {
 }
@@ -182,6 +191,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-image-text {
   font-size: 16px;
@@ -200,8 +211,9 @@ button {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-logo {
@@ -209,8 +221,9 @@ button {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-text {
